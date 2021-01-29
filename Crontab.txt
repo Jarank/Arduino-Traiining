@@ -1,4 +1,5 @@
 # 7 days of week 1 munite data loger.
+## Ref:  https://crontab.guru/examples.html ##
 0 0 * * 0 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-Sun-data.log &
 0 0 * * 1 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-Mon-data.log &
 0 0 * * 2 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-Tue-data.log &
@@ -6,4 +7,4 @@
 0 0 * * 4 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-Thu-data.log &
 0 0 * * 5 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-Fri-data.log &
 0 0 * * 6 kill -9 $(pgrep -f "DHT22-USB0") ; /home/pi/DHT22-USB0-1m.sh > /home/pi/DHT22-sat-data.log &
-## Refee:  https://crontab.guru/examples.html ##
+
