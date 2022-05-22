@@ -7,3 +7,7 @@ By Jaran Keowma.
 https://github.com/Jarank/Arduino-Training/
 Simple I2C test for ebay SH1106 128x64 oled.
 
+Thank you for:
+https://github.com/MaxKravt/WiFi-Modbus-TCPtoRTU
+
+
