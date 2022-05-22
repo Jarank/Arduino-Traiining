@@ -1,0 +1,8 @@
+Armbian is a community driven open source project.
+https://forum.armbian.com/topic/14441-x96-air-432-go-and-wireless-driver-for-rtl8822cs/
+
+sudo apt update
+sudo apt install dkms bc git
+git clone https://github.com/cilynx/rtl88x2bu
+sudo dkms add ./rtl88x2bu
+sudo dkms install -m rtl88x2bu -v 5.6.1
